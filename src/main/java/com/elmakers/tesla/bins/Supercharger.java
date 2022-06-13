@@ -1,9 +1,6 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
-
 package com.elmakers.tesla.bins;
+
+import com.google.common.html.HtmlEscapers;
 
 public class Supercharger {
     private int id;
@@ -56,7 +53,7 @@ public class Supercharger {
     }
 
     public String getName() {
-        return this.name;
+        return HtmlEscapers.htmlEscaper().escape(this.name);
     }
 
     public void setName(String name) {
