@@ -37,7 +37,7 @@ public class Parser implements Runnable {
         this.sleep();
 
         try {
-            URL url = new URL("http://supercharge.info/service/supercharge/allSites");
+            URL url = new URL("https://supercharge.info/service/supercharge/allSites");
             is = url.openStream();
             BufferedReader br = new BufferedReader(new InputStreamReader(is));
             this.output.setProgress(7, "Downloading");
