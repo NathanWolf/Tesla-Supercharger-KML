@@ -6,4 +6,4 @@ https://forums.tesla.com/discussion/42477/superchargers-on-google-earth-not-goog
 
 With much respect to the original author, mpetarm_93393622
 
-And thanks to supercharger.info for curating and providing the data.
+And thanks to https://supercharge.info/changes for curating and providing the data.
